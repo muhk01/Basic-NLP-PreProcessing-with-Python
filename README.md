@@ -11,6 +11,6 @@ These Step before processing and dealing with any text-formatted Data
 
 Stemming just removes or stems the last few characters of a word, often leading to incorrect meanings and spelling. Lemmatization considers the context and converts the word to its meaningful base form, which is called Lemma. Sometimes, the same word can have multiple different Lemmas.
 
-1. lemmatize the word 'Caring', it would return 'Care'. If you stem, it would return 'Car' and this is erroneous.
-2. lemmatize the word 'Stripes' in verb context, it would return 'Strip'. If you lemmatize it in noun context, it would return 'Stripe'. If you just stem it, it would just return 'Strip'
+1. Lemmatize the word 'Caring', it would return 'Care'. But stem, it would return 'Car'.
+2. Lemmatize the word 'Stripes' in verb context, it would return 'Strip'. Lemmatize return a noun context, and would return 'Stripe'. whereas stem it, it would just return 'Strip'
 3. Lemmatization is computationally expensive. 
